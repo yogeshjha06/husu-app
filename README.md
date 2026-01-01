@@ -1,63 +1,81 @@
 # HUSU - Human Sustainability Platform
 
-![HUSU Banner](public/husu.png)
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <img src="public/husu.png" width="200" height="200" alt="HUSU Logo"/>
+</div>
+
 
 ## 🚀 Mission Overview
-**HUSU (Human Sustainability Platform)** is a state-of-the-art MERN-stack ecosystem designed to measure, analyze, and optimize the most valuable asset in any organization: its people. Built with futuristic aesthetics and mission-critical performance, HUSU provides a secure, end-to-end encrypted terminal for organizational wellbeing.
+**HUSU (Human Sustainability Platform)** is a next-generation MERN ecosystem built to measure, analyze, and improve human sustainability in organizations. Security-first, encrypted, AI-assisted, and built for scale.
 
 ---
 
 ## 🛠 Strategic Tech Stack
-*   **Infrastructure**: [Next.js](https://nextjs.org/) / [React](https://reactjs.org/)
-*   **Intelligence Base**: [MongoDB](https://www.mongodb.com/)
-*   **Storage Core**: [Cloudflare R2](https://www.cloudflare.com/products/r2/)
-*   **Security Protocol**: Multi-Factor Authentication (2FA) via [Speakeasy](https://github.com/speakeasyjs/speakeasy)
-*   **Encryption**: End-to-End Cryptographic Handshake
+
+### ⚙️ Frameworks & UI
+![Next.js](https://img.shields.io/badge/Next.js-Framework-black?logo=next.js)
+![React](https://img.shields.io/badge/React-Library-black?logo=react)
+
+### 🧠 Database
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-black?logo=mongodb)
+
+### ☁️ Storage
+![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-Storage-black?logo=cloudflare)
+
+### 🔐 Authentication
+![2FA Speakeasy](https://img.shields.io/badge/2FA-Speakeasy-black?logo=key)
+
+### 🐳 Containerization
+![Docker](https://img.shields.io/badge/Docker-Container-black?logo=docker)
+
+### 🚀 Hosting
+![Render](https://img.shields.io/badge/Render-Deployment-black?logo=render)
 
 ---
 
 ## ⚡ Deployment Instructions
 
 ### 1. Initialize Clone
-Clone the tactical repository to your local terminal:
 ```bash
 git clone https://github.com/yogeshjha06/husu-app.git
 cd husu-app
-```
+````
 
 ### 2. Configure Environment
-Create a `.env.local` file in the root directory and populate it with the required mission data (Database URLs, API Keys, etc.):
+
+Create `.env.local`:
+
 ```bash
-# Example .env.local
 DATABASE_URL=your_mongodb_uri
 # (Additional mission-critical secrets)
 ```
 
 ### 3. Install Dependencies
-Initialize the node modules:
+
 ```bash
 npm install
 ```
 
 ### 4. Launch Local Terminal
-Start the development server:
+
 ```bash
 npm run dev
 ```
-Navigate to `http://localhost:3000` to access the Mission Control.
+
+Open `http://localhost:3000` to access Mission Control.
 
 ---
 
 ## 🐳 Containerized Deployment (Docker)
 
-### 1. Build Optimized Image
-Engineered for minimal footprint and maximum security:
+### 1. Build Image
+
 ```bash
 docker build -t husu-app .
 ```
 
-### 2. Launch Container
-Execute with environment injection:
+### 2. Run Container
+
 ```bash
 docker run -p 3000:3000 --env-file .env.local husu-app
 ```
@@ -65,15 +83,19 @@ docker run -p 3000:3000 --env-file .env.local husu-app
 ---
 
 ## 🔐 Tactical Features
-*   **2FA Fortification**: Every mission-critical account is gated by Multi-Factor Authentication.
-*   **Tactical Analytics**: Real-time KPI tracking with sub-second generation latency.
-*   **Mission Portals**: Dedicated hubs for HUSU Admins, Org Admins, and Employee units.
-*   **Encrypted Storage**: Secure handling of organizational reports and unit documentation.
+
+* **2FA Fortification** for all accounts
+* **Real-time Analytics & KPI tracking**
+* **Admin & Employee portals**
+* **Encrypted document storage**
+* **AI-assisted research terminal**
 
 ---
 
 ## 👨‍💻 Architect
-Built with precision by **Yogesh Jha**.
+
+Built by **Yogesh Jha**
 
 ---
-*© 2026 HUSU. DESIGNED FOR MISSION-CRITICAL ENVIRONMENTS.*
+
+*© 2026 HUSU — Designed for mission-critical human sustainability.*
